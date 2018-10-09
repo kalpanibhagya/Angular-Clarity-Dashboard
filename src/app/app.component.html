@@ -1,8 +1,15 @@
 <div class="main-container">
   <app-header></app-header>
-  <app-sidenav></app-sidenav>
+  <div class="content-container">
+      <nav class="sidenav">
+          <app-sidenav></app-sidenav>
+      </nav>
+    <div class="content-area">
+        <router-outlet></router-outlet>
+    </div>
+  </div>
 </div>
 
 
 
-<router-outlet></router-outlet>
+
