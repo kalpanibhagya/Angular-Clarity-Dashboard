@@ -7,12 +7,24 @@ import { ClarityModule } from '@clr/angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { HomeComponent } from './home/home.component';
+import { ProfileComponent } from './profile/profile.component';
+import { ButtonsComponent } from './buttons/buttons.component';
+import { CardsComponent } from './cards/cards.component';
+import { IconsComponent } from './icons/icons.component';
+import { TablesComponent } from './tables/tables.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SidenavComponent
+    SidenavComponent,
+    HomeComponent,
+    ProfileComponent,
+    ButtonsComponent,
+    CardsComponent,
+    IconsComponent,
+    TablesComponent
   ],
   imports: [
     BrowserModule,
