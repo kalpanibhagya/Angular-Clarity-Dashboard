@@ -13,6 +13,9 @@ import { ButtonsComponent } from './buttons/buttons.component';
 import { CardsComponent } from './cards/cards.component';
 import { IconsComponent } from './icons/icons.component';
 import { TablesComponent } from './tables/tables.component';
+import { LoginComponent } from './login/login.component';
+import { SettingsComponent } from './settings/settings.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { TablesComponent } from './tables/tables.component';
     ButtonsComponent,
     CardsComponent,
     IconsComponent,
-    TablesComponent
+    TablesComponent,
+    LoginComponent,
+    SettingsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
